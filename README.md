@@ -45,13 +45,14 @@ Commande (r row col = révéler | f row col = drapeau | q = quitter) :
 #### 1. Cloner le projet (si sur GitHub)
 
 ```bash
-git clone https://github.com/votre-nom/demineur-haskell.git
+git clone https://github.com/yveskroos/KOBA_plutus2.git
 cd demineur-haskell
 ```
 
 #### 2. Compiler avec GHC
 
 Assurez-vous d’avoir GHC installé (`ghc --version`).
+
 
 ```bash
 ghc demineur.hs -o demineur
