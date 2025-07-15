@@ -51,7 +51,12 @@ cd demineur-haskell
 
 #### 2. Compiler avec GHC
 
-Assurez-vous d’avoir GHC installé (`ghc --version`).
+Assurez-vous d’avoir GHC installé 
+sudo apt install ghc.
+
+vérifié si vous avez GHC avec 
+
+ghc --version
 
 
 ```bash
