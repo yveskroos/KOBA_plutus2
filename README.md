@@ -46,20 +46,16 @@ Commande (r row col = révéler | f row col = drapeau | q = quitter) :
 
 ```bash
 git clone https://github.com/yveskroos/KOBA_plutus2.git
-cd demineur-haskell
+cd KOBA_plutus2
 ```
 
 #### 2. Compiler avec GHC
 
 Assurez-vous d’avoir GHC installé 
-sudo apt install ghc.
-
-vérifié si vous avez GHC avec 
-
-ghc --version
-
 
 ```bash
+sudo apt install ghc
+ghc --version
 ghc demineur.hs -o demineur
 ```
 
