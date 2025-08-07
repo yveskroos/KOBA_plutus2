@@ -96,9 +96,10 @@ f 2 1
 Tu peux modifier ces constantes pour ajuster la difficulté :
 
 ```haskell
-width = 8
-height = 8
-mineCount = 10
+largeur = 8       
+hauteur = 8        
+nbMines = 10       -
+
 ```
 
 ---
